@@ -1,0 +1,90 @@
+<!doctype>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>youCover</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendors/fancybox/jquery.fancybox.min.css">
+
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="../dist/youCover.css">
+		
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="row">
+				<h1>youCover</h1>
+				<div class="well">
+					<h3>A jQuery plugin to wrap the youtube default player</h3>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-9">
+					<div class="row">
+						<h4>Like iframe</h4>
+						<div data-youcover data-width="100%" data-height="640" data-src='https://www.youtube.com/embed/BEtPCT7ZcE0?rel=0&amp;showinfo=0&amp;autoplay=1' data-allowfullscreen></div>
+						<div class="row">
+							<div class="col-md-6">
+								<h4>Change Icon</h4>
+								<div data-youcover data-src='https://www.youtube.com/embed/BEtPCT7ZcE0?rel=0&amp;showinfo=0&amp;autoplay=0' data-wrapperclass='youCover icon2'></div>
+							</div>
+							<div class="col-md-6">
+								<h4>Using Youtube ID</h4>
+								<div data-youcover data-id='3BhkeY974Rg'></div>
+							</div>
+						</div>
+						<div class="well">
+							<h3>Using fancybox</i></h3>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<h4>Single movie</h4>
+								<div data-youcover data-fancybox data-id='3BhkeY974Rg'></div>
+							</div>
+
+							<div class="col-md-8">
+								<h4>Gallery movie</h4>
+								<div class="row">
+									<div class="col-md-4">
+										<div data-youcover data-fancybox data-id='MGgr62ZrfdU' data-rel='galery'></div>
+									</div>
+									<div class="col-md-4">
+											<div data-youcover data-fancybox data-id='ocwnns57cYQ' data-rel='galery'></div>
+									</div>
+									<div class="col-md-4">
+										<div data-youcover data-fancybox data-id='xD7D5ZN1pro' data-rel='galery'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h3>Buy me a coffee!</h3><br>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="DPQWY6YU8YCVW">
+						<input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						
+				</div>
+			</div><!--/.row-->
+		</div>
+		
+		<footer>
+			<div class="container">&copy;youCover</div>
+		</footer>
+	</body>
+	<script
+	src="https://code.jquery.com/jquery-2.2.4.min.js"
+	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	crossorigin="anonymous"></script>
+
+	<script src='vendors/fancybox/jquery.fancybox.min.js'></script>
+	<script src='../dist/youCover.js'></script>
+</html>

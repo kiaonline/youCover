@@ -1,0 +1,48 @@
+html,
+body {
+  background-color: #ffffff;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+    margin-bottom: 80px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+    background-color: #f0f0f0;
+}
+
+footer .container {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    height: 60px;
+    display: table;
+    text-align: center;
+}
+
+
+h1{
+    color: #008aff;
+}
+h4{
+    padding: 0 15px;
+}
+.well {
+    margin-top: 20px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.youCover.icon2::before{
+    background-image: url("https://lh3.googleusercontent.com/pqnpzpWfCCHVu6mqwtr-ueJHrYzTUFVzQNIwqqQ8016APeEI8ZxmBzu-q3thtlhwDrVX=w300");
+}
