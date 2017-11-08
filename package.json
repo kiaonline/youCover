@@ -1,10 +1,18 @@
 {
   "title": "youCover - jQuery Plugin",
-  "name": "youCover",
-  "repository": "",
+  "name": "youcover",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiaonline/youCover.git"
+  },
   "version": "1.0.0",
   "description": "jQuery Plugin to wrap default player",
-  "keywords": ["jquery-plugin","youtube cover","youbube player"],
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "youtube cover",
+    "youbube player"
+  ],
   "author": "k1@",
   "license": "ISC",
   "devDependencies": {
@@ -32,5 +40,17 @@
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
     "uglify-js-harmony": "^2.6.2"
-  }
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/kiaonline/youCover/issues"
+  },
+  "homepage": "https://github.com/kiaonline/youCover#readme"
 }
