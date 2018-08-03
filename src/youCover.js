@@ -30,9 +30,9 @@
             attributes.src = data.src;
         }
 
-        var yId     = data.id || youtube_parser(attributes.src);
-        var url     = coverUrl.replace("%yid%",yId);
-
+        var yId         = data.id || youtube_parser(attributes.src);
+        var url         = coverUrl.replace("%yid%",yId);
+        var coverImage  = data.image || url;
         //put autoplay param
         var aP = attributes.src.indexOf('autoplay');
         if(aP && !is_mobile) if(aP==-1) attributes.src += "&amp;autoplay=1"; else attributes.src = attributes.src.replace("autoplay=0","autoplay=1");
@@ -41,7 +41,7 @@
             $wrapper.attr('data-fancybox',data.rel || false)
                     .attr('href',attributes.src)
                     .attr('rel',data.rel);
-            $cover.attr('src',url);
+            $cover.attr('src',coverImage);
             $wrapper.append($cover);
             $el.replaceWith($wrapper);
             $wrapper.addClass('loaded');
