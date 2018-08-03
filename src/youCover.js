@@ -68,7 +68,7 @@
             return $wrapper;
         }
         
-        $cover.attr('src',url);
+        $cover.attr('src',coverImage);
         $wrapper.append($cover);
         $el.replaceWith($wrapper);
         $wrapper.addClass('loaded');
