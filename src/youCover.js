@@ -10,7 +10,7 @@
         var smallScreen = (window.matchMedia('(max-width: 767px)').matches);
         var is_mobile   = (/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent));
         var $el         = $(el), data = $el.data();
-        var coverUrl    =  "https://img.youtube.com/vi/%yid%/maxresdefault.jpg";
+        var coverUrl    =  "https://i3.ytimg.com/vi/%yid%/maxresdefault.jpg";
         var $wrapper    = $("<a href='javascript:void(0);'></a>");
         var $iframe     = $("<iframe />");
         var $cover      = $("<img />");

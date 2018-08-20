@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git+https://github.com/kiaonline/youCover.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery Plugin to wrap default player",
   "keywords": [
     "jquery-plugin",
